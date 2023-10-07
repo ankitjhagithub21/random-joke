@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Carlito', sans-serif;
+    background-color: #0984e3;
+
+}
+.col-md-6{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+#joke{
+   
+    background-color:whitesmoke;
+    padding: 10px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   border-radius: 5px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   
+}
+
+#container{
+    position: relative;
+}
+
+#input{
+    color: blueviolet;
+    padding: 8px 18px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.fa-search{
+    position: absolute;
+    right: 0;
+    margin-top: 55px;
+    margin-right: 20px;
+    
+}
+
+@media (max-width:768px) {
+    .fa-search{
+        margin-top: 50px;
+    }
+}
